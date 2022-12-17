@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="description" content="Free Web tutorials">
+  	<meta name="keywords" content="HTML, CSS, JavaScript">
+  	<meta name="author" content="John Doe">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="text/css" href="img/icon.png" type="image/gif" sizes="16x16">
+    <title>Archil</title>
+</head>
+
+<body class="FirstPage">
+
+    
+    <article class="FirstPageFlex" >
+        
+        <article class="FirstPageDiv">
+            
+            <div class="name">
+                <h1><span style="color: red;">A</span><span>r</span><span>c</span><span>h</span><span>i</span><span>l</span>  <span style="color: red;">K</span><span>a</span><span>t</span><span>a</span><span>m</span><span>a</span><span>d</span><span>z</span><span>e</span></h1>
+            </div>
+            <br>
+            <br>
+            <div class="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="#section1"><span style="color: red;">B</span>iography</a></li>
+                        <li><a href="#section2"><span style="color: red;">E</span>ducation</a></li>
+                        <li><a href="#section3"><span style="color: red;">P</span>rojects</a></li>
+                        <li><a href="#section4"><span style="color: red;">S</span>kills</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="links">
+                <a href="https://www.facebook.com/Achikokatamadze" target="_blank"><img class="fb" src="img/facebook.png" alt="facebook" ></a>
+                <a href="#" ><img class="in" src="img/instagram.png" alt="instagram" ></a>
+                <a href="https://github.com/AchikoKatamadze" target="_blank"><img class="gt" src="img/github.png" alt="github"></a>
+            </div>
+            
+        </article>
+        
+        <article class="FirstPageimg">
+            <img src="img/hand.png" alt="back">
+        </article>
+    </article>
+
+<main class="infomain" >
+
+    <section id="section1">
+        <div class="cont">
+            <h1>About Biography</h1>
+        </div>
+    </section>
+
+    <section id="section2">
+        <class class="cont">
+            <h1>About education</h1>
+        </class>
+    </section>
+
+    <section id="section3">
+        <class class="cont">
+            <h1>About projects</h1>
+        </class>
+    </section>
+
+    <section id="section4">
+        <class class="cont">
+            <h1>About skills</h1>
+        </class>
+    </section>
+    
+    
+    
+</main>
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+
+    let mybutton = document.getElementById("myBtn");
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+</body>
+</html>

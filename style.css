@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Titillium+Web:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+ 
+.FirstPage .FirstPageFlex .FirstPageDiv{
+    padding: 0 20px;
+    height: 960px;
+}
+.FirstPage .FirstPageFlex .FirstPageDiv .name h1 span{
+    color: rgb(199, 199, 199);
+    transition: 0.2s;
+    cursor: pointer;
+    
+}
+.FirstPage .FirstPageFlex .FirstPageDiv .name h1 span:hover{
+    color: red;
+}
+
+.FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+    font-size: 100px;
+}
+
+
+.FirstPage .FirstPageFlex .FirstPageDiv .navigation a{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+.FirstPage .FirstPageFlex .FirstPageDiv .navigation a:hover{
+    color: rgb(255, 0, 0);
+    border-top: 2px solid orange;
+}
+
+
+.FirstPage .FirstPageFlex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.FirstPage .FirstPageFlex .links img{
+    width: 40px;
+}
+
+.FirstPage .FirstPageFlex .links .in, .gt{
+    margin-left: 40px;
+}
+
+.FirstPage .FirstPageFlex .FirstPageimg img{
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+/* Responsive design */
+
+@media screen and (max-width: 1050px){
+    .FirstPageDiv{
+        background-image: url(img/hand.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .FirstPageimg img{
+        display: none;
+    }
+    body{
+        text-align: center;
+    }
+    .FirstPage .FirstPageFlex{
+        display: block;
+    }
+    .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 550px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 80px;   
+    }
+    body{
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 540px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 70px;   
+    }
+    .FirstPageDiv{
+        background-image: url(img/hand.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        background-position: top;
+    }
+}
+@media screen and (max-width: 480px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 55px;   
+    }
+    .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
+        font-size: 50px;
+    }
+    .FirstPage .FirstPageFlex .links .in, .gt{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 380px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 40px;   
+    }
+    .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
+        font-size: 40px;
+    }
+    .FirstPage .FirstPageFlex .links .in, .gt{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width: 330px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 35px;   
+    }
+    .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
+        font-size: 35px;
+    }
+    .FirstPage .FirstPageFlex .links .in, .gt{
+        margin-left: 10px;
+    }
+    .FirstPage .FirstPageFlex .links{
+        display: column;
+    }
+}
+@media screen and (max-width: 280px){
+    .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
+        font-size: 30px;   
+    }
+    .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
+        font-size: 30px;
+    }
+    .FirstPage .FirstPageFlex .links .in, .gt{
+        margin-left: 10px;
+    }
+    .FirstPage .FirstPageFlex .links{
+        display: column;
+    }
+}
+
+
+
+
+
+/* go back to top button */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    background-color: rgba(215, 215, 215, 0.49); 
+    color: white;
+    cursor: pointer; 
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px; 
+    transition: 0.5s;
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(84, 0, 0); 
+  }
+/* --------------------------------------------------------------------*/
+
+
+
+.infomain section{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    height: 600px;
+    margin-bottom: 200px;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: rgb(168, 168, 168); 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(63, 63, 63); 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+   background: rgb(41, 41, 41); 
+}
