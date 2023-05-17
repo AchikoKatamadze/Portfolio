@@ -56,7 +56,7 @@ body{
     width: 40px;
 }
 
-.FirstPage .FirstPageFlex .links .in, .gt{
+.FirstPage .FirstPageFlex .links .in, .gt, .gm{
     margin-left: 40px;
 }
 
@@ -64,6 +64,7 @@ body{
     width: 300px;
     height: auto;
 }
+
 
 
 
@@ -132,7 +133,7 @@ body{
     .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
         font-size: 50px;
     }
-    .FirstPage .FirstPageFlex .links .in, .gt{
+    .FirstPage .FirstPageFlex .links .in, .gt, .gm{
         margin-left: 20px;
     }
 }
@@ -143,7 +144,7 @@ body{
     .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
         font-size: 40px;
     }
-    .FirstPage .FirstPageFlex .links .in, .gt{
+    .FirstPage .FirstPageFlex .links .in, .gt, .gm{
         margin-left: 20px;
     }
 }
@@ -154,7 +155,7 @@ body{
     .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
         font-size: 35px;
     }
-    .FirstPage .FirstPageFlex .links .in, .gt{
+    .FirstPage .FirstPageFlex .links .in, .gt, .gm{
         margin-left: 10px;
     }
     .FirstPage .FirstPageFlex .links{
@@ -168,7 +169,7 @@ body{
     .FirstPage .FirstPageFlex .FirstPageDiv .navigation nav ul li a{
         font-size: 30px;
     }
-    .FirstPage .FirstPageFlex .links .in, .gt{
+    .FirstPage .FirstPageFlex .links .in, .gt, .gm{
         margin-left: 10px;
     }
     .FirstPage .FirstPageFlex .links{
