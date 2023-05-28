@@ -71,14 +71,6 @@ body{
 
 /* Responsive design */
 
-@media screen and (max-width: 1050px){
-    .FirstPageDiv{
-        background-image: url(img/hand.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: black;
-    }
-}
 
 @media screen and (max-width: 1050px){
     .FirstPageimg img{
@@ -117,13 +109,6 @@ body{
 @media screen and (max-width: 540px){
     .FirstPage .FirstPageFlex .FirstPageDiv .name h1{
         font-size: 70px;   
-    }
-    .FirstPageDiv{
-        background-image: url(img/hand.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: black;
-        background-position: top;
     }
 }
 @media screen and (max-width: 480px){
